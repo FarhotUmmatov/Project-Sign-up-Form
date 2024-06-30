@@ -1,0 +1,153 @@
+body {
+   /* background-image: url(img-fonts/debora-pilati-dOG0z4-gqp0-unsplash.jpg);
+   background-size: cover; */
+   background-color: #b2d3c2;
+   font-family: Norse-Bold;
+   box-sizing: border-box;
+}
+.container {
+    display: flex;
+    margin: 7vh 12vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-sizing: border-box;
+
+}
+/* left: logo */
+.left {
+    position: relative;
+    float: left;
+    background: url(img-fonts/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    width: 35%;
+    min-width: 200px;
+    height: 85vh;
+    box-sizing: border-box;
+}
+.right {
+    float: right;
+    background-color: rgb(219, 255, 229);
+    width: 65%;
+    min-width: 200px;
+    height: 85vh;
+    box-sizing: border-box;
+
+}
+.img {
+    display: flex;
+    margin-top: 25vh;
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    background-color: hsl(0, 0%, 0%, 0.5);
+    
+
+}
+@font-face {
+    font-family: Norse-Bold;
+    font-weight: bold;
+    src: url("img-fonts/Norse-Bold.otf") format("opentype");
+}
+.odin{
+    font-family: Norse-Bold;
+    font-size: 11vh;
+    padding: 20px 0px;
+    color: aliceblue;
+}
+.img img {
+    padding: 10px 0px;
+}
+@font-face {
+    font-family: norse;
+    src: url("img-fonts/norse.regular.otf") format("opentype");
+}
+.img-autor {
+    font-family: norse;
+    position: absolute;
+    bottom: 1em !important;
+    color:aliceblue
+}
+.img-autor > a:link {
+    color:aliceblue;
+}
+.img-autor > a:visited {
+    color:rgb(124, 255, 168);
+}
+.img-autor > a:hover {
+    color:rgb(255, 255, 255);
+}
+/* right: sign-up */
+.quote {
+    font-family: Norse-Bold;
+    font-size: larger;
+    margin: 51px 70px 30px 40px;
+}
+.form {
+    display: flex;
+    position: relative;
+    box-shadow: 0px 0px 10px 3px rgba(0.5, 1, 1, 0.2); 
+}
+form > p{
+    margin-left: 40px;
+    font-family: Norse-Bold;
+}
+input, label {
+    display: block;
+    margin: 10px 0px;
+    box-sizing: border-box;
+}
+input {
+    width: 300px;
+    background-color:transparent;
+    border: none;
+    border-bottom: 0.13em solid rgb(0, 0, 0);
+}
+input:hover {
+    border: none;
+    border-bottom: 0.13em solid rgb(47, 47, 229);
+}
+input:active {
+    border: none;
+    border-bottom: 0.13em solid rgb(13, 80, 31);
+}
+input:focus {
+    outline: none;
+    border-bottom: 0.13em solid rgb(13, 97, 35);
+}
+input:invalid {
+    outline: none;
+    border: none;
+    border-bottom: 0.13em solid rgb(255, 5, 5);
+    box-shadow: 0px 5px 0px 0px rgba(0, 0.5, 0.5, 0.1); 
+}
+.r1 {
+    min-width: 150px;
+    margin: 5px 30px 30px 40px;
+    max-width: 400px;
+    min-width: 150px;
+    float: left;
+    box-sizing: border-box;
+}
+.r2 {
+    min-width: 150px;
+    margin: 5px 30px 30px 40px;
+    width: 400px;
+    min-width: 150px;
+    float: right;
+    box-sizing: border-box;
+}
+button {
+    font-family: Norse-Bold;
+    background-color: #596D48;
+    color: aliceblue;
+    padding: 10px 30px;
+    margin: 40px 20px 20px 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+.login {
+    margin-left: 40px;
+    > a{
+        text-decoration: none;
+    }
+}
